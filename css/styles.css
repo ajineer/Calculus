@@ -1,13 +1,25 @@
 body{
     background-color: lightgrey;
 }
-#2_3ExcersiseList{
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
+
+#box{
+    display: flex;
 }
-#2_4ExcersiseList{
+#ExcerciseList2_3{
     background-color: white;
     border-radius: 10px;
     width: 250px;
+    margin: 5px;
+}
+#ExcerciseList2_4{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: 5px;
+}
+#ExcerciseList2_5{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: 5px;
 }
