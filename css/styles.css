@@ -6,7 +6,7 @@ body{
     display: flex;
 }
 #ExcerciseList2_3{
-    background-color: white;
+    background-color: lightblue;
     border-radius: 10px;
     width: 250px;
     margin: 5px;
@@ -22,4 +22,15 @@ body{
     border-radius: 10px;
     width: 500px;
     margin: 5px;
+}
+
+.Two_3{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    width: 125px;
+    border: 3px solid grey;
+}
+.Two_3:hover{
+    border: 3px solid rgb(0, 255, 0);
 }
