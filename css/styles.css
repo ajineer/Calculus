@@ -7,30 +7,65 @@ body{
 }
 #ExcerciseList2_3{
     background-color: lightblue;
+    border: 1px solid grey;
     border-radius: 10px;
     width: 250px;
     margin: 5px;
 }
 #ExcerciseList2_4{
-    background-color: white;
+    background-color: lightblue;
+    border: 1px solid grey;
     border-radius: 10px;
     width: 500px;
     margin: 5px;
 }
 #ExcerciseList2_5{
-    background-color: white;
+    background-color: lightblue;
     border-radius: 10px;
     width: 500px;
     margin: 5px;
 }
 
+.Two_3Sol{
+    background-color: white;
+    color: rgb(10, 173, 10);
+    overflow: hidden;
+    display: none;
+    border-radius: 5%;
+    width: 65%;
+    border: 1px solid black;
+    margin: auto;
+}
+
 .Two_3{
     background-color: white;
-    border-radius: 5px;
-    margin: 5px;
-    width: 125px;
-    border: 3px solid grey;
+    border-radius: 5%;
+    width: 50%;
+    height: 5%;
+    border: 1% solid black;
+    margin: 5%;
 }
 .Two_3:hover{
-    border: 3px solid rgb(0, 255, 0);
+    border-color: lightgreen;
+}
+.Two_4{
+    background-color: white;
+    border-radius: 5%;
+    border: 1% solid black;
+    margin: 5%;
+}
+
+.Two_4:hover{
+    border-color: lightgreen;
+}
+
+.Two_4Sol{
+    background-color: white;
+    color: rgb(10, 173, 10);
+    overflow: hidden;
+    display: none;
+    border-radius: 5%;
+    width: 65%;
+    border: 1px solid black;
+    margin: auto;
 }
