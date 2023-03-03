@@ -2,6 +2,16 @@ body{
     background-color: lightgrey;
 }
 
+.calcItopics {
+    background-color: lightblue;
+    border: 1px solid grey;
+    margin: 1%;
+}
+
+#container{
+    display: flex;
+}
+
 #box{
     display: flex;
 }
@@ -9,6 +19,7 @@ body{
     background-color: lightblue;
     border: 1px solid grey;
     border-radius: 10px;
+    height:fit-content;
     width: 250px;
     margin: 5px;
 }
@@ -21,6 +32,7 @@ body{
 }
 #ExcerciseList2_5{
     background-color: lightblue;
+    border: 1px solid grey;
     border-radius: 10px;
     width: 500px;
     margin: 5px;
@@ -32,7 +44,7 @@ body{
     overflow: hidden;
     display: none;
     border-radius: 5%;
-    width: 65%;
+    width: fit-content;
     border: 1px solid black;
     margin: auto;
 }
@@ -40,7 +52,7 @@ body{
 .Two_3{
     background-color: white;
     border-radius: 5%;
-    width: 50%;
+    width: auto;
     height: 5%;
     border: 1% solid black;
     margin: 5%;
@@ -68,4 +80,15 @@ body{
     width: 65%;
     border: 1px solid black;
     margin: auto;
+}
+
+footer{
+    background-color: lightblue;
+}
+.Two_3_list{
+    list-style-type: upper-alpha;
+    justify-content: left;
+}
+li{
+    text-align: left;
 }
