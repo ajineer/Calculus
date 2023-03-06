@@ -1,4 +1,4 @@
-var btn = document.getElementsByClassName("Two_3");
+var btn = document.getElementsByClassName("problems");
     
 for(var i = 0; i<btn.length; i++){
     btn[i].addEventListener("click", function () {

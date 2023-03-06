@@ -15,14 +15,6 @@ body{
 #box{
     display: flex;
 }
-#ExcerciseList2_3{
-    background-color: lightblue;
-    border: 1px solid grey;
-    border-radius: 10px;
-    height:fit-content;
-    width: 250px;
-    margin: 5px;
-}
 #ExcerciseList2_4{
     background-color: lightblue;
     border: 1px solid grey;
@@ -36,29 +28,6 @@ body{
     border-radius: 10px;
     width: 500px;
     margin: 5px;
-}
-
-.Two_3Sol{
-    background-color: white;
-    color: rgb(10, 173, 10);
-    overflow: hidden;
-    display: none;
-    border-radius: 5%;
-    width: fit-content;
-    border: 1px solid black;
-    margin: auto;
-}
-
-.Two_3{
-    background-color: white;
-    border-radius: 5%;
-    width: auto;
-    height: 5%;
-    border: 1% solid black;
-    margin: 5%;
-}
-.Two_3:hover{
-    border-color: lightgreen;
 }
 .Two_4{
     background-color: white;
@@ -84,11 +53,4 @@ body{
 
 footer{
     background-color: lightblue;
-}
-.Two_3_list{
-    list-style-type: upper-alpha;
-    justify-content: left;
-}
-li{
-    text-align: left;
 }

@@ -1,0 +1,61 @@
+body{
+    background-color: grey;
+}
+.problems{
+    background-color: lightblue;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height:fit-content;
+    width: 250px;
+    margin: 5px;
+    display: grid;
+}
+.solutions{
+    background-color: white;
+    color: rgb(10, 173, 10);
+    overflow: hidden;
+    display: none;
+    border-radius: 5%;
+    width: fit-content;
+    border: 1px solid black;
+}
+#one{
+    grid-column: 1/1;
+}
+#two{
+
+}
+#three{
+
+}
+#four
+#five{
+    grid-column: 2/1;
+}
+#nine{
+    grid-column: 3/1;
+}
+#thirteen{
+    grid-column: 4/1;
+}
+#seventeen{
+    grid-column: 5/1;
+}
+.problems:hover{
+    border-color: lightgreen;
+}
+.Two_3{
+    background-color: white;
+    border-radius: 5%;
+    width: auto;
+    height: 5%;
+    border: 1% solid black;
+    margin: 5%;
+}
+.Two_3_list{
+    list-style-type: upper-alpha;
+    justify-content: left;
+}
+li{
+    text-align: left;
+}
