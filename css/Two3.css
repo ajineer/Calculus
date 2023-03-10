@@ -1,6 +1,10 @@
 body{
     background-color: grey;
 }
+#excerciseList2_3{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+}
 .problems{
     background-color: lightblue;
     border: 1px solid grey;
@@ -8,7 +12,6 @@ body{
     height:fit-content;
     width: 250px;
     margin: 5px;
-    display: grid;
 }
 .solutions{
     background-color: white;
@@ -18,28 +21,6 @@ body{
     border-radius: 5%;
     width: fit-content;
     border: 1px solid black;
-}
-#one{
-    grid-column: 1/1;
-}
-#two{
-
-}
-#three{
-
-}
-#four
-#five{
-    grid-column: 2/1;
-}
-#nine{
-    grid-column: 3/1;
-}
-#thirteen{
-    grid-column: 4/1;
-}
-#seventeen{
-    grid-column: 5/1;
 }
 .problems:hover{
     border-color: lightgreen;
